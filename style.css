@@ -1,0 +1,56 @@
+
+.main{
+    width: 60%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: rgb(26, 24, 24);
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-radius: 30px;
+}
+
+.clock{
+    padding: 0 20px 20px 20px;
+    font-size: 60px;
+    color: chartreuse;
+}
+
+.button-div{
+     width: 100%;
+     text-align: center;
+}
+.start, .reset, .pause{
+    width: 100px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid white;
+    background: transparent;
+    color: white;
+    font-weight: bold;
+    margin: 10px;
+    cursor: pointer;
+    /* transform: scale(1); */
+    transition: transform 0.2s ease-in-out;
+}
+
+.start:hover{
+    transform: scale(1.1);
+}
+
+.reset:hover{
+    transform: scale(1.1);
+}
+
+.pause:hover{
+    transform: scale(1.1);
+}
+
+
+@media (max-width: 728px) {
+    .main {
+      width: 100%;
+    }
+  }
